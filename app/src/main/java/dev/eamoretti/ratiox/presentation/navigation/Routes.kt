@@ -9,4 +9,13 @@ sealed class Routes {
 
     @Serializable
     data object Agent : Routes()
+
+    @Serializable
+    data object Accounts : Routes()
+
+    @Serializable
+    data object NewAccount : Routes()
+
+    @Serializable
+    data object NewMovement : Routes()
 }
